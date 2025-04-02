@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="640dc4c9-c4e3-4aa5-8e0d-1aefb84322ef" name="Changes" comment="DZ files">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OP5_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OP5_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OP5_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OP6_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OP6_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OP6_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OP7_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OP8_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arithmetic.py" afterDir="false" />
-    </list>
+    <list default="true" id="640dc4c9-c4e3-4aa5-8e0d-1aefb84322ef" name="Changes" comment="DZ files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,51 +41,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.DZ1.executor": "Run",
-    "Python.DZ2_1.executor": "Run",
-    "Python.DZ2_2.executor": "Run",
-    "Python.DZ2_3.executor": "Run",
-    "Python.OP1_1.executor": "Run",
-    "Python.OP1_2.executor": "Run",
-    "Python.OP1_3.executor": "Run",
-    "Python.OP1_4.executor": "Run",
-    "Python.OP1_5.executor": "Run",
-    "Python.OP2_1.executor": "Run",
-    "Python.OP2_2.executor": "Run",
-    "Python.OP2_3.executor": "Run",
-    "Python.OP2_4.executor": "Run",
-    "Python.OP2_5.executor": "Run",
-    "Python.OP3_1.executor": "Run",
-    "Python.OP3_2.executor": "Run",
-    "Python.OP3_3.executor": "Run",
-    "Python.OP3_4.executor": "Run",
-    "Python.OP3_5.executor": "Run",
-    "Python.OP4_1.executor": "Run",
-    "Python.OP4_2.executor": "Run",
-    "Python.OP4_3.executor": "Run",
-    "Python.OP5_1.executor": "Run",
-    "Python.OP5_2.executor": "Run",
-    "Python.OP5_3.executor": "Run",
-    "Python.OP6_1.executor": "Run",
-    "Python.OP6_2.executor": "Run",
-    "Python.OP6_3.executor": "Run",
-    "Python.OP7_1.executor": "Run",
-    "Python.OP8_1.executor": "Run",
-    "Python.int1.executor": "Run",
-    "Python.int2.executor": "Run",
-    "Python.int3.executor": "Run",
-    "Python.int4.executor": "Run",
-    "Python.int4_1.executor": "Run",
-    "Python.int5.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.p2p.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/User/Desktop/indiv_proj_virt"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.DZ1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DZ2_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DZ2_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DZ2_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP1_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP1_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP1_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP1_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP1_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP2_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP2_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP2_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP2_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP2_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP3_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP3_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP3_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP3_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP3_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP4_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP4_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP4_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP5_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP5_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP5_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP6_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP6_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP6_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP7_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OP8_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.int1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.int2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.int3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.int4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.int4_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.int5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.p2p.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/indiv_proj_virt&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.OP8_1">
     <configuration name="OP6_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
@@ -117,6 +102,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OP6_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -139,6 +125,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OP6_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -161,6 +148,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OP6_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -183,6 +171,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OP7_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -205,6 +194,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OP8_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -227,6 +217,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -249,7 +240,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -261,6 +253,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731688920325</updated>
+      <workItem from="1737750182783" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="DZ files">
       <option name="closed" value="true" />
