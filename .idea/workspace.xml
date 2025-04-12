@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="640dc4c9-c4e3-4aa5-8e0d-1aefb84322ef" name="Changes" comment="DZ files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="640dc4c9-c4e3-4aa5-8e0d-1aefb84322ef" name="Changes" comment="DZ files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +85,10 @@
     "git-widget-placeholder": "dev",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/User/Desktop/indiv_proj_virt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -258,7 +259,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731688920325</updated>
       <workItem from="1737750182783" duration="20000" />
-      <workItem from="1744456758900" duration="380000" />
+      <workItem from="1744456758900" duration="776000" />
     </task>
     <task id="LOCAL-00001" summary="DZ files">
       <option name="closed" value="true" />
