@@ -28,8 +28,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/VladimirAkb/study&quot;,
-    &quot;accountId&quot;: &quot;417247c3-5cc3-49c2-beca-02e084184caf&quot;
+    &quot;url&quot;: &quot;https://github.com/VladimirAkb/study.git&quot;,
+    &quot;accountId&quot;: &quot;207caecf-43a9-48e7-9c1a-0e5e63ab4936&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -82,8 +82,13 @@
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.p2p.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/indiv_proj_virt&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -254,6 +259,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731688920325</updated>
       <workItem from="1737750182783" duration="20000" />
+      <workItem from="1744456758900" duration="776000" />
     </task>
     <task id="LOCAL-00001" summary="DZ files">
       <option name="closed" value="true" />
@@ -271,8 +277,27 @@
       <option name="project" value="LOCAL" />
       <updated>1733087699954</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1744533627186</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744533627186</updated>
+    </task>
+    <task id="LOCAL-00004" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1744533652390</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744533652390</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
