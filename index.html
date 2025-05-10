@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мой гараж</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .garage {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px;
+      flex-wrap: wrap;
+    }
+
+    .car-card {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .car-card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .car-info {
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Мой гараж</h1>
+
+  <div class="garage">
+    <div class="car-card">
+      <img src="https://avatars.mds.yandex.net/i?id=e4ee8212d74075c1e8ee612b55020fe5691e726e-12635432-images-thumbs&n=13" alt="Car 1">
+      <div class="car-info">
+        <h2>Car 1</h2>
+        <p>Марка: BMW<br>Год: 2020<br>Цвет: Зеленый</p>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="https://avatars.mds.yandex.net/i?id=768e97b6c079d642e76b4aecd70efce2e51efdead3e37394-12323132-images-thumbs&n=13" alt="Car 2">
+      <div class="car-info">
+        <h2>Car 2</h2>
+        <p>Марка: Audi<br>Год: 2019<br>Цвет: Красный</p>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="https://avatars.mds.yandex.net/i?id=fc471c45ea4dae4917cccb1b7f3d007f7100f39f-10303576-images-thumbs&n=13" alt="Car 3">
+      <div class="car-info">
+        <h2>Car 3</h2>
+        <p>Марка: Tesla<br>Год: 2021<br>Цвет: Черный</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
