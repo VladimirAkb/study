@@ -4,6 +4,12 @@
    background-color: #B0C4DE;
    border-radius: 60px;
 }
+.card:hover {
+   width: 450px;
+   height: 600px;
+   background-color: #00BFFF;
+
+}
 .photo {
    height: 30%;
    padding: 40px;
