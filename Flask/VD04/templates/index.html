@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мир Буратино - Главная</title>
+</head>
+<body>
+  <h1>Добро пожаловать в Мир Буратино!</h1>
+  <img src="{{ url_for('static', filename='buratino.jpg') }}" alt="Буратино" width="200">
+  <p>Буратино — озорной деревянный мальчик с длинным носом.</p>
+  <nav>
+    <a href="/">Главная</a> |
+    <a href="/blog">Блог</a> |
+    <a href="/contacts">Контакты</a>
+  </nav>
+</body>
+</html>

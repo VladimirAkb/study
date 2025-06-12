@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мир Буратино - Блог</title>
+</head>
+<body>
+  <h1>Наши герои</h1>
+
+  <h2>Мальвина</h2>
+  <img src="{{ url_for('static', filename='malvina.jpg') }}" alt="Мальвина" width="200">
+  <p>Мальвина — воспитанная девочка с голубыми волосами, помогает Буратино.</p>
+
+  <h2>Дуремар</h2>
+  <img src="{{ url_for('static', filename='duremar.jpg') }}" alt="Дуремар" width="200">
+  <p>Дуремар — хитрый персонаж, торгующий пиявками и служащий злодеям.</p>
+
+  <nav>
+    <a href="/">Главная</a> |
+    <a href="/blog">Блог</a> |
+    <a href="/contacts">Контакты</a>
+  </nav>
+</body>
+</html>
