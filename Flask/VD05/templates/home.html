@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}Главная - Мир Буратино{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">Блог Буратино и его друзей</h1>
+
+<div class="row">
+  <div class="col-md-4">
+    <div class="card mb-4">
+      <img src="../static/buratino.jpg?text=Буратино" class="card-img-top" alt="Буратино">
+      <div class="card-body">
+        <h5 class="card-title">Буратино</h5>
+        <p class="card-text">Буратино — деревянный мальчик с длинным носом. Он храбрый, весёлый и всегда готов к приключениям.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card mb-4">
+      <img src="../static/malvina.jpg?text=Мальвина" class="card-img-top" alt="Мальвина">
+      <div class="card-body">
+        <h5 class="card-title">Мальвина</h5>
+        <p class="card-text">Мальвина — девочка с голубыми волосами, любит порядок и воспитанность. Поддерживает Буратино в трудную минуту.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card mb-4">
+      <img src="../static/duremar.jpg?text=Дуремар" class="card-img-top" alt="Дуремар">
+      <div class="card-body">
+        <h5 class="card-title">Дуремар</h5>
+        <p class="card-text">Дуремар — продавец пиявок и помощник злодеев. Постоянно строит козни героям, но проигрывает.</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
