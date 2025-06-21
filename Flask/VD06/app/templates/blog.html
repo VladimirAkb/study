@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Простой блог</title>
+</head>
+<body>
+#создает класс container
+
+<div class="container py-5">
+    <h1 class="mb-4 text-center">Простой блог</h1>
+
+    <!-- Форма отправки поста -->
+    <div class="card shadow-sm mb-5">
+        <div class="card-body">
+            <h5 class="card-title">Новый пост</h5>
+            <form method="POST" action="/">
+                <div class="mb-3">
+                    <label for="title" class="form-label">Заголовок</label>
+                    <input type="text" class="form-control" id="title" name="title" required>
+                </div>
+                <div class="mb-3">
+                    <label for="content" class="form-label">Текст поста</label>
+                    <textarea class="form-control" id="content" name="content" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Отправить пост</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Список постов -->
+    <h2 class="mb-4">Посты</h2>
+    <div class="row row-cols-1 g-4">
+        {% for post in posts %}
+        <div class="col">
+            <div class="card h-100 border-primary shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">{{ post.title }}</h5>
+                    <p class="card-text">{{ post.content }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+    #подключает Bootstrap для стилизации
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
