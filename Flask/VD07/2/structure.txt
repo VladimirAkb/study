@@ -1,0 +1,10 @@
+flask_auth_project/
+├── app.py
+├── templates/
+│   ├── base.html
+│   ├── home.html
+│   ├── login.html
+│   ├── register.html
+│   └── profile.html
+├── requirements.txt
+└── users.db  (будет создан автоматически)
