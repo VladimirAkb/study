@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Цитаты на выбор</title>
+</head>
+<body>
+
+<h1>Сайт с цитатами на выбор</h1>
+<form method="post">
+ <p>Выберите сайт с цитатами:</p>
+
+  <input type="radio" id="q1" name="choice" value="q1">
+  <label for="q1">Красный</label><br>
+
+  <input type="radio" id="q2" name="choice" value="q2">
+  <label for="q2">Зелёный</label><br>
+
+  <input type="radio" id="q3" name="choice" value="q3">
+  <label for="q3">Синий</label><br>
+
+  <input type="submit" value="Отправить">
+</form>
+
+   <div class="result">
+       {% if quote %}
+           <h3>Выбранная цитата:</h3>
+           <p>Цитата: {{ quote[0]['q'] }}</p>
+           <p>Автор: {{ quote[0]['a'] }}</p>
+
+       {% endif %}
+</div>
+
+
+
+</body>
+</html>
