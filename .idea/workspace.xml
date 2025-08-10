@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="640dc4c9-c4e3-4aa5-8e0d-1aefb84322ef" name="Changes" comment="DZ files" />
+    <list default="true" id="640dc4c9-c4e3-4aa5-8e0d-1aefb84322ef" name="Changes" comment="DZ files">
+      <change afterPath="$PROJECT_DIR$/Analyze/World-happiness-report-2024.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/VD03/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/VD07/1/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/VD07/1/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/VD09/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/VD09/app/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/VD09/app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/VD09/app/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask/borshch.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask/ovosnoi-salat-s-belym-syrom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask/pelmeni.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask/plov.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask/vinegret.jpg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +28,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -41,60 +68,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.DZ1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DZ2_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DZ2_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DZ2_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP1_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP1_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP1_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP1_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP1_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP2_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP2_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP2_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP2_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP2_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP3_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP3_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP3_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP3_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP3_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP4_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP4_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP4_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP5_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP5_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP5_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP6_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP6_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP6_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP7_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OP8_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.int1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.int2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.int3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.int4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.int4_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.int5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.p2p.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/indiv_proj_virt&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.AZ01_1.executor": "Run",
+    "Python.AZ02.executor": "Run",
+    "Python.AZ03_1.executor": "Run",
+    "Python.AZ03_2.executor": "Run",
+    "Python.AZ03_3.executor": "Run",
+    "Python.DZ1.executor": "Run",
+    "Python.DZ2_1.executor": "Run",
+    "Python.DZ2_2.executor": "Run",
+    "Python.DZ2_3.executor": "Run",
+    "Python.OP1_1.executor": "Run",
+    "Python.OP1_2.executor": "Run",
+    "Python.OP1_3.executor": "Run",
+    "Python.OP1_4.executor": "Run",
+    "Python.OP1_5.executor": "Run",
+    "Python.OP2_1.executor": "Run",
+    "Python.OP2_2.executor": "Run",
+    "Python.OP2_3.executor": "Run",
+    "Python.OP2_4.executor": "Run",
+    "Python.OP2_5.executor": "Run",
+    "Python.OP3_1.executor": "Run",
+    "Python.OP3_2.executor": "Run",
+    "Python.OP3_3.executor": "Run",
+    "Python.OP3_4.executor": "Run",
+    "Python.OP3_5.executor": "Run",
+    "Python.OP4_1.executor": "Run",
+    "Python.OP4_2.executor": "Run",
+    "Python.OP4_3.executor": "Run",
+    "Python.OP5_1.executor": "Run",
+    "Python.OP5_2.executor": "Run",
+    "Python.OP5_3.executor": "Run",
+    "Python.OP6_1.executor": "Run",
+    "Python.OP6_2.executor": "Run",
+    "Python.OP6_3.executor": "Run",
+    "Python.OP7_1.executor": "Run",
+    "Python.OP8_1.executor": "Run",
+    "Python.PS02_1.executor": "Run",
+    "Python.PS02_2.executor": "Run",
+    "Python.PS02_3.executor": "Run",
+    "Python.PS03.executor": "Run",
+    "Python.PS04.executor": "Run",
+    "Python.PS06.executor": "Run",
+    "Python.PS06_2.executor": "Run",
+    "Python.VD04_1.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.app (1).executor": "Run",
+    "Python.app (2).executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.app_vd07 (1).executor": "Run",
+    "Python.int1.executor": "Run",
+    "Python.int2.executor": "Run",
+    "Python.int3.executor": "Run",
+    "Python.int4.executor": "Run",
+    "Python.int4_1.executor": "Run",
+    "Python.int5.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
+    "Python.main (3).executor": "Run",
+    "Python.main (4).executor": "Run",
+    "Python.main (5).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.p2p.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/User/Desktop/Oldman/VD09/pythonProjectweb",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Python.OP8_1">
-    <configuration name="OP6_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\study\Flask\VD06\app\templates" />
+      <recent name="C:\Users\User\Documents\GitHub\study\Analyze" />
+      <recent name="C:\Users\User\Documents\GitHub\study" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main (5)">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,12 +162,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask/VD07/2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OP6_1.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\User\Documents\GitHub\study\Flask\VD07\2\app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +176,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="OP6_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="app_vd07" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,12 +185,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask/VD07/2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OP6_2.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\User\Documents\GitHub\study\Flask\VD07\2\app_vd07.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +199,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="OP6_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,12 +208,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask/VD06_1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OP6_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flask/VD06_1/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +222,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="OP7_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,12 +231,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask/VD08" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OP7_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flask/VD08/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,7 +245,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="OP8_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,12 +254,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask/VD09" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OP8_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flask/VD09/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask/pythonProjectweb" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flask/pythonProjectweb/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,11 +316,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.OP8_1" />
-        <item itemvalue="Python.OP7_1" />
-        <item itemvalue="Python.OP6_3" />
-        <item itemvalue="Python.OP6_2" />
-        <item itemvalue="Python.OP6_1" />
+        <item itemvalue="Python.main (5)" />
+        <item itemvalue="Python.main (4)" />
+        <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.app_vd07" />
+        <item itemvalue="Python.main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -260,6 +342,20 @@
       <updated>1731688920325</updated>
       <workItem from="1737750182783" duration="20000" />
       <workItem from="1744456758900" duration="776000" />
+      <workItem from="1746800480403" duration="20445000" />
+      <workItem from="1747157403847" duration="5166000" />
+      <workItem from="1747427716434" duration="593000" />
+      <workItem from="1748099764011" duration="6665000" />
+      <workItem from="1748701430066" duration="17074000" />
+      <workItem from="1748982037460" duration="18020000" />
+      <workItem from="1749386643410" duration="12831000" />
+      <workItem from="1749663232524" duration="13460000" />
+      <workItem from="1749891994763" duration="6000" />
+      <workItem from="1749923585685" duration="1237000" />
+      <workItem from="1750014351959" duration="3827000" />
+      <workItem from="1750187319861" duration="3059000" />
+      <workItem from="1750525606943" duration="22214000" />
+      <workItem from="1754736250797" duration="2078000" />
     </task>
     <task id="LOCAL-00001" summary="DZ files">
       <option name="closed" value="true" />
@@ -293,7 +389,183 @@
       <option name="project" value="LOCAL" />
       <updated>1744533652390</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1746912204127</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746912204127</updated>
+    </task>
+    <task id="LOCAL-00006" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1746974855801</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746974855801</updated>
+    </task>
+    <task id="LOCAL-00007" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1746987666335</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746987666335</updated>
+    </task>
+    <task id="LOCAL-00008" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1747082413680</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747082413680</updated>
+    </task>
+    <task id="LOCAL-00009" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1748376523578</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1748376523578</updated>
+    </task>
+    <task id="LOCAL-00010" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1748791410655</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1748791410655</updated>
+    </task>
+    <task id="LOCAL-00011" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1748791476096</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1748791476096</updated>
+    </task>
+    <task id="LOCAL-00012" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1749212566417</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1749212566417</updated>
+    </task>
+    <task id="LOCAL-00013" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1749220012474</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1749220012474</updated>
+    </task>
+    <task id="LOCAL-00014" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1749306240215</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1749306240215</updated>
+    </task>
+    <task id="LOCAL-00015" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1749306355471</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1749306355471</updated>
+    </task>
+    <task id="LOCAL-00016" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1749391651583</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1749391651583</updated>
+    </task>
+    <task id="LOCAL-00017" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1749393430778</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1749393430778</updated>
+    </task>
+    <task id="LOCAL-00018" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1749414663911</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1749414663911</updated>
+    </task>
+    <task id="LOCAL-00019" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1749495336973</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1749495336973</updated>
+    </task>
+    <task id="LOCAL-00020" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1749742037631</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1749742037631</updated>
+    </task>
+    <task id="LOCAL-00021" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1749757387377</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1749757387377</updated>
+    </task>
+    <task id="LOCAL-00022" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1749757403171</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1749757403171</updated>
+    </task>
+    <task id="LOCAL-00023" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1749828934358</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1749828934358</updated>
+    </task>
+    <task id="LOCAL-00024" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1750538664911</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1750538664911</updated>
+    </task>
+    <task id="LOCAL-00025" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1751740036641</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1751740036641</updated>
+    </task>
+    <task id="LOCAL-00026" summary="DZ files">
+      <option name="closed" value="true" />
+      <created>1751805714965</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1751805714965</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +588,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Analyze/AZ01_1.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -324,5 +603,30 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/study$app__2_.coverage" NAME="app (2) Coverage Results" MODIFIED="1751737386118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/VD07/2" />
+    <SUITE FILE_PATH="coverage/study$PS02_2.coverage" NAME="PS02_2 Coverage Results" MODIFIED="1746974316017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1750538559389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/VD06" />
+    <SUITE FILE_PATH="coverage/study$app_vd07__1_.coverage" NAME="app_vd07 (1) Coverage Results" MODIFIED="1751737815962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/VD07/2" />
+    <SUITE FILE_PATH="coverage/study$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1750187333833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/VD06/app" />
+    <SUITE FILE_PATH="coverage/study$PS04.coverage" NAME="PS04 Coverage Results" MODIFIED="1747084566687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study$AZ02.coverage" NAME="AZ02 Coverage Results" MODIFIED="1749219935197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analyze" />
+    <SUITE FILE_PATH="coverage/study$AZ03_3.coverage" NAME="AZ03_3 Coverage Results" MODIFIED="1749306044563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analyze" />
+    <SUITE FILE_PATH="coverage/study$PS06_2.coverage" NAME="PS06_2 Coverage Results" MODIFIED="1749206685505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1750187447573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/VD05" />
+    <SUITE FILE_PATH="coverage/study$main__5_.coverage" NAME="main (5) Coverage Results" MODIFIED="1754736911356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/pythonProjectweb" />
+    <SUITE FILE_PATH="coverage/study$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1754736716745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/VD09" />
+    <SUITE FILE_PATH="coverage/study$PS03.coverage" NAME="PS03 Coverage Results" MODIFIED="1746987377205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study$PS02_1.coverage" NAME="PS02_1 Coverage Results" MODIFIED="1746974300511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1751795404439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/VD08" />
+    <SUITE FILE_PATH="coverage/study$AZ03_1.coverage" NAME="AZ03_1 Coverage Results" MODIFIED="1749300859450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analyze" />
+    <SUITE FILE_PATH="coverage/study$AZ01_1.coverage" NAME="AZ01_1 Coverage Results" MODIFIED="1749217786260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analyze" />
+    <SUITE FILE_PATH="coverage/study$app.coverage" NAME="app Coverage Results" MODIFIED="1749757280050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/VD04" />
+    <SUITE FILE_PATH="coverage/study$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1750538577727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/VD06_1" />
+    <SUITE FILE_PATH="coverage/study$PS02_3.coverage" NAME="PS02_3 Coverage Results" MODIFIED="1746974832087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study$VD04_1.coverage" NAME="VD04_1 Coverage Results" MODIFIED="1749756680119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/VD04" />
+    <SUITE FILE_PATH="coverage/study$AZ03_2.coverage" NAME="AZ03_2 Coverage Results" MODIFIED="1749301105235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analyze" />
+    <SUITE FILE_PATH="coverage/study$PS06.coverage" NAME="PS06 Coverage Results" MODIFIED="1748463300481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
